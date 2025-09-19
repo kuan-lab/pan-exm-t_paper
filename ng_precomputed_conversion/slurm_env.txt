@@ -1,0 +1,226 @@
+SLURM_MPI_TYPE=pmi2
+SLURM_MEM_PER_CPU=5120
+LD_LIBRARY_PATH=/vast/palmer/apps/avx2/software/Python/3.10.8-GCCcore-12.2.0/lib:/vast/palmer/apps/avx2/software/OpenSSL/1.1/lib:/vast/palmer/apps/avx2/software/libffi/3.4.4-GCCcore-12.2.0/lib64:/vast/palmer/apps/avx2/software/GMP/6.2.1-GCCcore-12.2.0/lib:/vast/palmer/apps/avx2/software/XZ/5.2.7-GCCcore-12.2.0/lib:/vast/palmer/apps/avx2/software/SQLite/3.39.4-GCCcore-12.2.0/lib:/vast/palmer/apps/avx2/software/Tcl/8.6.12-GCCcore-12.2.0/lib:/vast/palmer/apps/avx2/software/libreadline/8.2-GCCcore-12.2.0/lib:/vast/palmer/apps/avx2/software/ncurses/6.3-GCCcore-12.2.0/lib:/vast/palmer/apps/avx2/software/bzip2/1.0.8-GCCcore-12.2.0/lib:/vast/palmer/apps/avx2/software/binutils/2.39-GCCcore-12.2.0/lib:/vast/palmer/apps/avx2/software/zlib/1.2.12-GCCcore-12.2.0/lib:/vast/palmer/apps/avx2/software/GCCcore/12.2.0/lib64
+SRUN_DEBUG=3
+EBVERSIONXZ=5.2.7
+SLURM_STEP_ID=4294967290
+EBROOTBINUTILS=/vast/palmer/apps/avx2/software/binutils/2.39-GCCcore-12.2.0
+SLURM_NODEID=0
+SLURM_TASK_PID=2734850
+__LMOD_REF_COUNT_PATH=/vast/palmer/apps/avx2/software/Python/3.10.8-GCCcore-12.2.0/bin:1;/vast/palmer/apps/avx2/software/OpenSSL/1.1/bin:1;/vast/palmer/apps/avx2/software/XZ/5.2.7-GCCcore-12.2.0/bin:1;/vast/palmer/apps/avx2/software/SQLite/3.39.4-GCCcore-12.2.0/bin:1;/vast/palmer/apps/avx2/software/Tcl/8.6.12-GCCcore-12.2.0/bin:1;/vast/palmer/apps/avx2/software/ncurses/6.3-GCCcore-12.2.0/bin:1;/vast/palmer/apps/avx2/software/bzip2/1.0.8-GCCcore-12.2.0/bin:1;/vast/palmer/apps/avx2/software/binutils/2.39-GCCcore-12.2.0/bin:1;/vast/palmer/apps/avx2/software/GCCcore/12.2.0/bin:1;/vast/palmer/apps/bin:1;/vast/palmer/home.mccleary/atk42/envs/cloudvol/bin:1;/home/atk42/.local/bin:1;/home/atk42/bin:1;/opt/slurm/current/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/opt/dell/srvadmin/bin:1
+_ModuleTable002_=ewpmbiA9ICIvdmFzdC9wYWxtZXIvYXBwcy9hdngyL21vZHVsZXMvbWF0aC9HTVAvNi4yLjEtR0NDY29yZS0xMi4yLjAubHVhIiwKZnVsbE5hbWUgPSAiR01QLzYuMi4xLUdDQ2NvcmUtMTIuMi4wIiwKbG9hZE9yZGVyID0gMTEsCnByb3BUID0ge30sCnJlZl9jb3VudCA9IDEsCnN0YWNrRGVwdGggPSAxLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAiR01QLzYuMi4xLUdDQ2NvcmUtMTIuMi4wIiwKd1YgPSAiMDAwMDAwMDA2LjAwMDAwMDAwMi4wMDAwMDAwMDEuKmdjY2NvcmUuKnpmaW5hbC0uMDAwMDAwMDEyLjAwMDAwMDAwMi4qemZpbmFsIiwKfSwKT3BlblNTTCA9IHsKZm4gPSAiL3Zhc3QvcGFsbWVyL2FwcHMvYXZ4Mi9tb2R1bGVzL3N5c3RlbS9PcGVuU1NMLzEu
+SSH_CONNECTION=10.168.200.178 50386 10.178.0.32 22
+SLURM_PRIO_PROCESS=0
+LMOD_MODULERCFILE=/vast/palmer/apps/avx2/modulerc.lua
+SALLOC_PARTITION=devel
+LANG=en_US.UTF-8
+LMOD_SYSTEM_NAME=mccleary-rhel8
+SLURM_SUBMIT_DIR=/vast/palmer/home.mccleary/atk42/repos/cloudvolume-igneous-scripts/240921_upload_FIBSEM
+HISTCONTROL=ignoredups
+_ModuleTable008_=LUdDQ2NvcmUtMTIuMi4wIiwKd1YgPSAiMDAwMDAwMDAyLjAwMDAwMDAzOS4qZ2NjY29yZS4qemZpbmFsLS4wMDAwMDAwMTIuMDAwMDAwMDAyLip6ZmluYWwiLAp9LApiemlwMiA9IHsKZm4gPSAiL3Zhc3QvcGFsbWVyL2FwcHMvYXZ4Mi9tb2R1bGVzL3Rvb2xzL2J6aXAyLzEuMC44LUdDQ2NvcmUtMTIuMi4wLmx1YSIsCmZ1bGxOYW1lID0gImJ6aXAyLzEuMC44LUdDQ2NvcmUtMTIuMi4wIiwKbG9hZE9yZGVyID0gNSwKcHJvcFQgPSB7fSwKcmVmX2NvdW50ID0gMSwKc3RhY2tEZXB0aCA9IDEsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJiemlwMi8xLjAuOC1HQ0Njb3JlLTEyLjIuMCIsCndWID0gIjAwMDAwMDAwMS4wMDAwMDAwMDAuMDAwMDAwMDA4LipnY2Njb3Jl
+HISTTIMEFORMAT=%Y-%m-%d %T 
+HOSTNAME=r813u03n10
+SLURM_PMI2_STEP_NODES=r209u08n03
+LMOD_SYSTEM_DEFAULT_MODULES=StdEnv
+OLDPWD=/home/atk42/repos/cloudvolume-igneous-scripts
+EBDEVELSQLITE=/vast/palmer/apps/avx2/software/SQLite/3.39.4-GCCcore-12.2.0/easybuild/SQLite-3.39.4-GCCcore-12.2.0-easybuild-devel
+SLURM_CPUS_PER_TASK=1
+SLURM_STEPID=4294967290
+SLURM_SRUN_COMM_HOST=10.178.0.32
+ENVIRONMENT=BATCH
+EBDEVELBZIP2=/vast/palmer/apps/avx2/software/bzip2/1.0.8-GCCcore-12.2.0/easybuild/bzip2-1.0.8-GCCcore-12.2.0-easybuild-devel
+LMOD_CASE_INDEPENDENT_SORTING=yes
+__LMOD_REF_COUNT_XDG_DATA_DIRS=/vast/palmer/apps/avx2/software/Python/3.10.8-GCCcore-12.2.0/share:1;/vast/palmer/apps/avx2/software/libffi/3.4.4-GCCcore-12.2.0/share:1;/vast/palmer/apps/avx2/software/GMP/6.2.1-GCCcore-12.2.0/share:1;/vast/palmer/apps/avx2/software/XZ/5.2.7-GCCcore-12.2.0/share:1;/vast/palmer/apps/avx2/software/SQLite/3.39.4-GCCcore-12.2.0/share:1;/vast/palmer/apps/avx2/software/Tcl/8.6.12-GCCcore-12.2.0/share:1;/vast/palmer/apps/avx2/software/libreadline/8.2-GCCcore-12.2.0/share:1;/vast/palmer/apps/avx2/software/ncurses/6.3-GCCcore-12.2.0/share:1;/vast/palmer/apps/avx2/software/binutils/2.39-GCCcore-12.2.0/share:1;/vast/palmer/apps/avx2/software/zlib/1.2.12-GCCcore-12.2.0/share:1;/vast/palmer/apps/avx2/software/GCCcore/12.2.0/share:1;/usr/local/share:1;/usr/share:1
+EBROOTNCURSES=/vast/palmer/apps/avx2/software/ncurses/6.3-GCCcore-12.2.0
+_ModuleTable007_=IDEsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJYWi81LjIuNy1HQ0Njb3JlLTEyLjIuMCIsCndWID0gIjAwMDAwMDAwNS4wMDAwMDAwMDIuMDAwMDAwMDA3LipnY2Njb3JlLip6ZmluYWwtLjAwMDAwMDAxMi4wMDAwMDAwMDIuKnpmaW5hbCIsCn0sCmJpbnV0aWxzID0gewpmbiA9ICIvdmFzdC9wYWxtZXIvYXBwcy9hdngyL21vZHVsZXMvdG9vbHMvYmludXRpbHMvMi4zOS1HQ0Njb3JlLTEyLjIuMC5sdWEiLApmdWxsTmFtZSA9ICJiaW51dGlscy8yLjM5LUdDQ2NvcmUtMTIuMi4wIiwKbG9hZE9yZGVyID0gNCwKcHJvcFQgPSB7fSwKcmVmX2NvdW50ID0gMSwKc3RhY2tEZXB0aCA9IDEsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJiaW51dGlscy8yLjM5
+SQUEUE_FORMAT=%.18i %.9P %.8j %.8u %.9a %.2t %.16V %.10M %.10l %.5D %.5C %.10m %.10b %.10f %.10p %R
+SLURM_PROCID=0
+SLURM_JOB_GID=11610
+LMOD_RC=/vast/palmer/apps/avx2/lmodrc.lua
+__LMOD_REF_COUNT_LD_LIBRARY_PATH=/vast/palmer/apps/avx2/software/Python/3.10.8-GCCcore-12.2.0/lib:1;/vast/palmer/apps/avx2/software/OpenSSL/1.1/lib:1;/vast/palmer/apps/avx2/software/libffi/3.4.4-GCCcore-12.2.0/lib64:1;/vast/palmer/apps/avx2/software/GMP/6.2.1-GCCcore-12.2.0/lib:1;/vast/palmer/apps/avx2/software/XZ/5.2.7-GCCcore-12.2.0/lib:1;/vast/palmer/apps/avx2/software/SQLite/3.39.4-GCCcore-12.2.0/lib:1;/vast/palmer/apps/avx2/software/Tcl/8.6.12-GCCcore-12.2.0/lib:1;/vast/palmer/apps/avx2/software/libreadline/8.2-GCCcore-12.2.0/lib:1;/vast/palmer/apps/avx2/software/ncurses/6.3-GCCcore-12.2.0/lib:1;/vast/palmer/apps/avx2/software/bzip2/1.0.8-GCCcore-12.2.0/lib:1;/vast/palmer/apps/avx2/software/binutils/2.39-GCCcore-12.2.0/lib:1;/vast/palmer/apps/avx2/software/zlib/1.2.12-GCCcore-12.2.0/lib:1;/vast/palmer/apps/avx2/software/GCCcore/12.2.0/lib64:1
+SLURM_PMI2_PROC_MAPPING=(vector,(0,1,1))
+__LMOD_REF_COUNT_PKG_CONFIG_PATH=/vast/palmer/apps/avx2/software/Python/3.10.8-GCCcore-12.2.0/lib/pkgconfig:1;/vast/palmer/apps/avx2/software/OpenSSL/1.1/lib/pkgconfig:1;/vast/palmer/apps/avx2/software/libffi/3.4.4-GCCcore-12.2.0/lib/pkgconfig:1;/vast/palmer/apps/avx2/software/GMP/6.2.1-GCCcore-12.2.0/lib/pkgconfig:1;/vast/palmer/apps/avx2/software/XZ/5.2.7-GCCcore-12.2.0/lib/pkgconfig:1;/vast/palmer/apps/avx2/software/SQLite/3.39.4-GCCcore-12.2.0/lib/pkgconfig:1;/vast/palmer/apps/avx2/software/Tcl/8.6.12-GCCcore-12.2.0/lib/pkgconfig:1;/vast/palmer/apps/avx2/software/libreadline/8.2-GCCcore-12.2.0/lib/pkgconfig:1;/vast/palmer/apps/avx2/software/bzip2/1.0.8-GCCcore-12.2.0/lib/pkgconfig:1;/vast/palmer/apps/avx2/software/zlib/1.2.12-GCCcore-12.2.0/lib/pkgconfig:1
+SLURMD_NODENAME=r813u03n10
+EBROOTLIBFFI=/vast/palmer/apps/avx2/software/libffi/3.4.4-GCCcore-12.2.0
+EBROOTGCCCORE=/vast/palmer/apps/avx2/software/GCCcore/12.2.0
+_ModuleTable015_=dGVkIiwgIi9ldGMvbW9kdWxlZmlsZXMiCiwgIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCAiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eCIKLCAiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwgIi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLAp9LApzeXN0ZW1CYXNlTVBBVEggPSAiL2V0Yy9tb2R1bGVmaWxlczovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLAp9Cg==
+SLURM_JOB_END_TIME=1727478987
+_ModuleTable004_=eXRob24vMy4xMC44LUdDQ2NvcmUtMTIuMi4wIiwKd1YgPSAiMDAwMDAwMDAzLjAwMDAwMDAxMC4wMDAwMDAwMDguKmdjY2NvcmUuKnpmaW5hbC0uMDAwMDAwMDEyLjAwMDAwMDAwMi4qemZpbmFsIiwKfSwKU1FMaXRlID0gewpmbiA9ICIvdmFzdC9wYWxtZXIvYXBwcy9hdngyL21vZHVsZXMvZGV2ZWwvU1FMaXRlLzMuMzkuNC1HQ0Njb3JlLTEyLjIuMC5sdWEiLApmdWxsTmFtZSA9ICJTUUxpdGUvMy4zOS40LUdDQ2NvcmUtMTIuMi4wIiwKbG9hZE9yZGVyID0gOSwKcHJvcFQgPSB7fSwKcmVmX2NvdW50ID0gMSwKc3RhY2tEZXB0aCA9IDEsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJTUUxpdGUvMy4zOS40LUdDQ2NvcmUtMTIuMi4wIiwKd1YgPSAiMDAwMDAwMDAz
+VIRTUAL_ENV=/vast/palmer/home.mccleary/atk42/envs/cloudvol
+SLURM_TASKS_PER_NODE=1
+__LMOD_REF_COUNT_PYTHONPATH=/vast/palmer/apps/avx2/software/Python/3.10.8-GCCcore-12.2.0/easybuild/python:1
+which_declare=declare -f
+EBDEVELXZ=/vast/palmer/apps/avx2/software/XZ/5.2.7-GCCcore-12.2.0/easybuild/XZ-5.2.7-GCCcore-12.2.0-easybuild-devel
+EBROOTZLIB=/vast/palmer/apps/avx2/software/zlib/1.2.12-GCCcore-12.2.0
+GIBBS_PROJECT=/gpfs/gibbs/project/kuan/atk42
+XDG_SESSION_ID=52325
+SLURM_NNODES=1
+USER=atk42
+SLURM_LAUNCH_NODE_IPADDR=10.178.0.32
+__LMOD_REF_COUNT_CMAKE_LIBRARY_PATH=/vast/palmer/apps/avx2/software/libffi/3.4.4-GCCcore-12.2.0/lib64:1;/vast/palmer/apps/avx2/software/GCCcore/12.2.0/lib64:1
+CONDA_PKGS_DIRS=/home/atk42/.conda/pkgs
+EBVERSIONSQLITE=3.39.4
+_ModuleTable012_=cmUtMTIuMi4wIiwKbG9hZE9yZGVyID0gMywKcHJvcFQgPSB7fSwKcmVmX2NvdW50ID0gMywKc3RhY2tEZXB0aCA9IDIsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJ6bGliLzEuMi4xMi1HQ0Njb3JlLTEyLjIuMCIsCndWID0gIjAwMDAwMDAwMS4wMDAwMDAwMDIuMDAwMDAwMDEyLipnY2Njb3JlLip6ZmluYWwtLjAwMDAwMDAxMi4wMDAwMDAwMDIuKnpmaW5hbCIsCn0sCn0sCm1wYXRoQSA9IHsKIi92YXN0L3BhbG1lci9hcHBzL2F2eDIvbW9kdWxlcy9haSIsICIvdmFzdC9wYWxtZXIvYXBwcy9hdngyL21vZHVsZXMvYmFzZSIKLCAiL3Zhc3QvcGFsbWVyL2FwcHMvYXZ4Mi9tb2R1bGVzL2JpbyIsICIvdmFzdC9wYWxtZXIvYXBwcy9hdngyL21vZHVsZXMvY2FlIgos
+EBVERSIONGCCCORE=12.2.0
+EBROOTXZ=/vast/palmer/apps/avx2/software/XZ/5.2.7-GCCcore-12.2.0
+EBVERSIONLIBFFI=3.4.4
+SLURM_STEP_TASKS_PER_NODE=1
+EBVERSIONOPENSSL=1.1
+SLURM_JOB_START_TIME=1727475387
+__LMOD_REF_COUNT_MODULEPATH=/vast/palmer/apps/avx2/modules/ai:1;/vast/palmer/apps/avx2/modules/base:1;/vast/palmer/apps/avx2/modules/bio:1;/vast/palmer/apps/avx2/modules/cae:1;/vast/palmer/apps/avx2/modules/chem:1;/vast/palmer/apps/avx2/modules/compiler:1;/vast/palmer/apps/avx2/modules/data:1;/vast/palmer/apps/avx2/modules/debugger:1;/vast/palmer/apps/avx2/modules/devel:1;/vast/palmer/apps/avx2/modules/geo:1;/vast/palmer/apps/avx2/modules/ide:1;/vast/palmer/apps/avx2/modules/lang:1;/vast/palmer/apps/avx2/modules/lib:1;/vast/palmer/apps/avx2/modules/math:1;/vast/palmer/apps/avx2/modules/mpi:1;/vast/palmer/apps/avx2/modules/numlib:1;/vast/palmer/apps/avx2/modules/perf:1;/vast/palmer/apps/avx2/modules/phys:1;/vast/palmer/apps/avx2/modules/system:1;/vast/palmer/apps/avx2/modules/toolchain:1;/vast/palmer/apps/avx2/modules/tools:1;/vast/palmer/apps/avx2/modules/vis:1;/vast/palmer/apps/avx2/modules/restricted:1;/etc/modulefiles:1;/usr/share/modulefiles:1;/usr/share/modulefiles/Linux:1;/usr/share/modulefiles/Core:1;/usr/share/lmod/lmod/modulefiles/Core:1
+EBROOTOPENSSL=/vast/palmer/apps/avx2/software/OpenSSL/1.1
+PWD=/home/atk42/repos/cloudvolume-igneous-scripts/240921_upload_FIBSEM
+EBROOTSQLITE=/vast/palmer/apps/avx2/software/SQLite/3.39.4-GCCcore-12.2.0
+EBROOTLIBREADLINE=/vast/palmer/apps/avx2/software/libreadline/8.2-GCCcore-12.2.0
+SLURM_JOB_NODELIST=r813u03n10
+HOME=/home/atk42
+SLURM_CLUSTER_NAME=mccleary
+EBROOTBZIP2=/vast/palmer/apps/avx2/software/bzip2/1.0.8-GCCcore-12.2.0
+CMAKE_PREFIX_PATH=/vast/palmer/apps/avx2/software/Python/3.10.8-GCCcore-12.2.0:/vast/palmer/apps/avx2/software/OpenSSL/1.1:/vast/palmer/apps/avx2/software/libffi/3.4.4-GCCcore-12.2.0:/vast/palmer/apps/avx2/software/GMP/6.2.1-GCCcore-12.2.0:/vast/palmer/apps/avx2/software/XZ/5.2.7-GCCcore-12.2.0:/vast/palmer/apps/avx2/software/SQLite/3.39.4-GCCcore-12.2.0:/vast/palmer/apps/avx2/software/Tcl/8.6.12-GCCcore-12.2.0:/vast/palmer/apps/avx2/software/libreadline/8.2-GCCcore-12.2.0:/vast/palmer/apps/avx2/software/ncurses/6.3-GCCcore-12.2.0:/vast/palmer/apps/avx2/software/bzip2/1.0.8-GCCcore-12.2.0:/vast/palmer/apps/avx2/software/binutils/2.39-GCCcore-12.2.0:/vast/palmer/apps/avx2/software/zlib/1.2.12-GCCcore-12.2.0:/vast/palmer/apps/avx2/software/GCCcore/12.2.0
+SLURM_NODELIST=r813u03n10
+SSH_CLIENT=10.168.200.178 50386 22
+LMOD_VERSION=8.7.32
+CPATH=/vast/palmer/apps/avx2/software/Python/3.10.8-GCCcore-12.2.0/include:/vast/palmer/apps/avx2/software/OpenSSL/1.1/include:/vast/palmer/apps/avx2/software/libffi/3.4.4-GCCcore-12.2.0/include:/vast/palmer/apps/avx2/software/GMP/6.2.1-GCCcore-12.2.0/include:/vast/palmer/apps/avx2/software/XZ/5.2.7-GCCcore-12.2.0/include:/vast/palmer/apps/avx2/software/SQLite/3.39.4-GCCcore-12.2.0/include:/vast/palmer/apps/avx2/software/Tcl/8.6.12-GCCcore-12.2.0/include:/vast/palmer/apps/avx2/software/libreadline/8.2-GCCcore-12.2.0/include:/vast/palmer/apps/avx2/software/ncurses/6.3-GCCcore-12.2.0/include:/vast/palmer/apps/avx2/software/bzip2/1.0.8-GCCcore-12.2.0/include:/vast/palmer/apps/avx2/software/binutils/2.39-GCCcore-12.2.0/include:/vast/palmer/apps/avx2/software/zlib/1.2.12-GCCcore-12.2.0/include
+EBDEVELGMP=/vast/palmer/apps/avx2/software/GMP/6.2.1-GCCcore-12.2.0/easybuild/GMP-6.2.1-GCCcore-12.2.0-easybuild-devel
+EBDEVELTCL=/vast/palmer/apps/avx2/software/Tcl/8.6.12-GCCcore-12.2.0/easybuild/Tcl-8.6.12-GCCcore-12.2.0-easybuild-devel
+SLURM_JOB_CPUS_PER_NODE=1
+BASH_ENV=/usr/share/lmod/lmod/init/bash
+XDG_DATA_DIRS=/vast/palmer/apps/avx2/software/Python/3.10.8-GCCcore-12.2.0/share:/vast/palmer/apps/avx2/software/libffi/3.4.4-GCCcore-12.2.0/share:/vast/palmer/apps/avx2/software/GMP/6.2.1-GCCcore-12.2.0/share:/vast/palmer/apps/avx2/software/XZ/5.2.7-GCCcore-12.2.0/share:/vast/palmer/apps/avx2/software/SQLite/3.39.4-GCCcore-12.2.0/share:/vast/palmer/apps/avx2/software/Tcl/8.6.12-GCCcore-12.2.0/share:/vast/palmer/apps/avx2/software/libreadline/8.2-GCCcore-12.2.0/share:/vast/palmer/apps/avx2/software/ncurses/6.3-GCCcore-12.2.0/share:/vast/palmer/apps/avx2/software/binutils/2.39-GCCcore-12.2.0/share:/vast/palmer/apps/avx2/software/zlib/1.2.12-GCCcore-12.2.0/share:/vast/palmer/apps/avx2/software/GCCcore/12.2.0/share:/usr/local/share:/usr/share
+EBDEVELPYTHON=/vast/palmer/apps/avx2/software/Python/3.10.8-GCCcore-12.2.0/easybuild/Python-3.10.8-GCCcore-12.2.0-easybuild-devel
+SLURM_THREADS_PER_CORE=1
+SLURM_TOPOLOGY_ADDR=r813u03n10
+EBVERSIONGMP=6.2.1
+SLURMD_DEBUG=2
+SLURM_WORKING_CLUSTER=mccleary:scheduler.farnam.hpc.yale.internal:7817:9984:109
+EBVERSIONTCL=8.6.12
+__LMOD_REF_COUNT_LIBRARY_PATH=/vast/palmer/apps/avx2/software/Python/3.10.8-GCCcore-12.2.0/lib:1;/vast/palmer/apps/avx2/software/OpenSSL/1.1/lib:1;/vast/palmer/apps/avx2/software/libffi/3.4.4-GCCcore-12.2.0/lib64:1;/vast/palmer/apps/avx2/software/libffi/3.4.4-GCCcore-12.2.0/lib:1;/vast/palmer/apps/avx2/software/GMP/6.2.1-GCCcore-12.2.0/lib:1;/vast/palmer/apps/avx2/software/XZ/5.2.7-GCCcore-12.2.0/lib:1;/vast/palmer/apps/avx2/software/SQLite/3.39.4-GCCcore-12.2.0/lib:1;/vast/palmer/apps/avx2/software/Tcl/8.6.12-GCCcore-12.2.0/lib:1;/vast/palmer/apps/avx2/software/libreadline/8.2-GCCcore-12.2.0/lib:1;/vast/palmer/apps/avx2/software/ncurses/6.3-GCCcore-12.2.0/lib:1;/vast/palmer/apps/avx2/software/bzip2/1.0.8-GCCcore-12.2.0/lib:1;/vast/palmer/apps/avx2/software/binutils/2.39-GCCcore-12.2.0/lib:1;/vast/palmer/apps/avx2/software/zlib/1.2.12-GCCcore-12.2.0/lib:1
+EBEXTSLISTPYTHON=wheel-0.38.4,setuptools-63.4.3,pip-22.3.1,blist-1.3.6,pbr-5.11.0,Cython-0.29.32,six-1.16.0,toml-0.10.2,flit_core-3.8.0,tomli-2.0.1,packaging-21.3,setuptools_scm-7.0.5,python-dateutil-2.8.2,decorator-5.1.1,liac-arff-2.5.0,pycryptodome-3.17,ecdsa-0.18.0,ipaddress-1.0.23,asn1crypto-1.5.1,idna-3.4,pycparser-2.21,cffi-1.15.1,semantic_version-2.10.0,typing_extensions-4.4.0,setuptools-rust-1.5.2,cryptography-38.0.3,pyasn1-0.4.8,PyNaCl-1.5.0,bcrypt-4.0.1,paramiko-2.12.0,pyparsing-3.0.9,netifaces-0.11.0,netaddr-0.8.0,mock-4.0.3,pytz-2022.6,bitstring-3.1.9,appdirs-1.4.4,distlib-0.3.6,filelock-3.8.0,zipp-3.10.0,importlib_metadata-5.0.0,backports.entry-points-selectable-1.2.0,pathspec-0.10.1,pluggy-1.0.0,editables-0.3,hatchling-1.11.1,hatch_vcs-0.2.0,platformdirs-2.5.3,scandir-1.10.0,pathlib2-2.3.7.post1,importlib_resources-5.10.0,virtualenv-20.16.6,docopt-0.6.2,joblib-1.2.0,chardet-5.0.0,certifi-2022.9.24,urllib3-1.26.12,charset-normalizer-2.1.1,requests-2.28.1,xlrd-2.0.1,py_expression_eval-0.3.14,tabulate-0.9.0,ujson-5.5.0,atomicwrites-1.4.1,py-1.11.0,more-itertools-9.0.0,attrs-22.1.0,backports.functools_lru_cache-1.6.4,wcwidth-0.2.5,iniconfig-1.1.1,colorama-0.4.6,flit_scm-1.7.0,exceptiongroup-1.0.1,pytest-7.2.0,MarkupSafe-2.1.1,Jinja2-3.1.2,sphinxcontrib-serializinghtml-1.1.5,sphinxcontrib-websupport-1.2.4,Pygments-2.13.0,imagesize-1.4.1,docutils-0.19,snowballstemmer-2.2.0,alabaster-0.7.12,sphinxcontrib-applehelp-1.0.2,sphinxcontrib-devhelp-1.0.2,sphinxcontrib-htmlhelp-2.0.0,sphinxcontrib-jsmath-1.0.1,sphinxcontrib-qthelp-1.0.3,Babel-2.11.0,Sphinx-5.3.0,sphinx-bootstrap-theme-0.8.1,click-8.1.3,psutil-5.9.4,future-0.18.2,sortedcontainers-2.4.0,intervaltree-3.1.0,pytoml-0.1.21,zipfile36-0.1.3,tomli_w-1.0.0,flit-3.8.0,regex-2022.10.31,intreehooks-1.0,pylev-1.4.0,pastel-0.2.1,crashtest-0.3.1,clikit-0.6.2,jeepney-0.8.0,SecretStorage-3.3.3,keyring-23.11.0,jaraco.classes-3.2.3,keyrings.alt-4.2.0,tomlkit-0.11.6,shellingham-1.5.0,requests-toolbelt-0.9.1,pyrsistent-0.19.2,pkginfo-1.8.3,ptyprocess-0.7.0,pexpect-4.8.0,hatch_fancy_pypi_readme-22.8.0,jsonschema-4.17.0,simplejson-3.17.6,webencodings-0.5.1,html5lib-1.1,cleo-1.0.0a5,cachy-0.3.0,msgpack-1.0.4,CacheControl-0.12.11,lockfile-0.12.2,poetry-core-1.3.2,glob2-0.7,dulwich-0.20.50,poetry_plugin_export-1.2.0,poetry-1.2.2,fsspec-2022.11.0,threadpoolctl-3.1.0,simplegeneric-0.8.1,pooch-1.6.0,doit-0.36.0,cloudpickle-2.2.0,pydevtool-0.3.0,rich-13.1.0,rich-click-1.6.0,commonmark-0.9.1,execnet-1.9.0,pytest-xdist-3.1.0
+SLURM_STEP_NODELIST=r209u08n03
+SLURM_JOB_NAME=prechunk.job
+SLURM_SRUN_COMM_PORT=43335
+EBVERSIONNCURSES=6.3
+TMPDIR=/tmp
+LIBRARY_PATH=/vast/palmer/apps/avx2/software/Python/3.10.8-GCCcore-12.2.0/lib:/vast/palmer/apps/avx2/software/OpenSSL/1.1/lib:/vast/palmer/apps/avx2/software/libffi/3.4.4-GCCcore-12.2.0/lib64:/vast/palmer/apps/avx2/software/libffi/3.4.4-GCCcore-12.2.0/lib:/vast/palmer/apps/avx2/software/GMP/6.2.1-GCCcore-12.2.0/lib:/vast/palmer/apps/avx2/software/XZ/5.2.7-GCCcore-12.2.0/lib:/vast/palmer/apps/avx2/software/SQLite/3.39.4-GCCcore-12.2.0/lib:/vast/palmer/apps/avx2/software/Tcl/8.6.12-GCCcore-12.2.0/lib:/vast/palmer/apps/avx2/software/libreadline/8.2-GCCcore-12.2.0/lib:/vast/palmer/apps/avx2/software/ncurses/6.3-GCCcore-12.2.0/lib:/vast/palmer/apps/avx2/software/bzip2/1.0.8-GCCcore-12.2.0/lib:/vast/palmer/apps/avx2/software/binutils/2.39-GCCcore-12.2.0/lib:/vast/palmer/apps/avx2/software/zlib/1.2.12-GCCcore-12.2.0/lib
+EBROOTPYTHON=/vast/palmer/apps/avx2/software/Python/3.10.8-GCCcore-12.2.0
+__LMOD_REF_COUNT_CMAKE_PREFIX_PATH=/vast/palmer/apps/avx2/software/Python/3.10.8-GCCcore-12.2.0:1;/vast/palmer/apps/avx2/software/OpenSSL/1.1:1;/vast/palmer/apps/avx2/software/libffi/3.4.4-GCCcore-12.2.0:1;/vast/palmer/apps/avx2/software/GMP/6.2.1-GCCcore-12.2.0:1;/vast/palmer/apps/avx2/software/XZ/5.2.7-GCCcore-12.2.0:1;/vast/palmer/apps/avx2/software/SQLite/3.39.4-GCCcore-12.2.0:1;/vast/palmer/apps/avx2/software/Tcl/8.6.12-GCCcore-12.2.0:1;/vast/palmer/apps/avx2/software/libreadline/8.2-GCCcore-12.2.0:1;/vast/palmer/apps/avx2/software/ncurses/6.3-GCCcore-12.2.0:1;/vast/palmer/apps/avx2/software/bzip2/1.0.8-GCCcore-12.2.0:1;/vast/palmer/apps/avx2/software/binutils/2.39-GCCcore-12.2.0:1;/vast/palmer/apps/avx2/software/zlib/1.2.12-GCCcore-12.2.0:1;/vast/palmer/apps/avx2/software/GCCcore/12.2.0:1
+LMOD_sys=Linux
+_ModuleTable010_=ZGxpbmUgPSB7CmZuID0gIi92YXN0L3BhbG1lci9hcHBzL2F2eDIvbW9kdWxlcy9saWIvbGlicmVhZGxpbmUvOC4yLUdDQ2NvcmUtMTIuMi4wLmx1YSIsCmZ1bGxOYW1lID0gImxpYnJlYWRsaW5lLzguMi1HQ0Njb3JlLTEyLjIuMCIsCmxvYWRPcmRlciA9IDcsCnByb3BUID0ge30sCnJlZl9jb3VudCA9IDIsCnN0YWNrRGVwdGggPSAxLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAibGlicmVhZGxpbmUvOC4yLUdDQ2NvcmUtMTIuMi4wIiwKd1YgPSAiMDAwMDAwMDA4LjAwMDAwMDAwMi4qZ2NjY29yZS4qemZpbmFsLS4wMDAwMDAwMTIuMDAwMDAwMDAyLip6ZmluYWwiLAp9LApuY3Vyc2VzID0gewpmbiA9ICIvdmFzdC9wYWxtZXIvYXBwcy9hdngyL21vZHVsZXMvZGV2
+SLURM_JOBID=42180367
+_ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IDcyMDAuMCwKY19zaG9ydFRpbWUgPSAwLjAwMjY0MTkxNjI3NTAyNDQsCmRlcHRoVCA9IHt9LApmYW1pbHkgPSB7fSwKbVQgPSB7CkdDQ2NvcmUgPSB7CmZuID0gIi92YXN0L3BhbG1lci9hcHBzL2F2eDIvbW9kdWxlcy9jb21waWxlci9HQ0Njb3JlLzEyLjIuMC5sdWEiLApmdWxsTmFtZSA9ICJHQ0Njb3JlLzEyLjIuMCIsCmxvYWRPcmRlciA9IDIsCnByb3BUID0ge30sCnJlZl9jb3VudCA9IDExLApzdGFja0RlcHRoID0gMSwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gIkdDQ2NvcmUvMTIuMi4wIiwKd1YgPSAiMDAwMDAwMDEyLjAwMDAwMDAwMi4qemZpbmFsIiwKfSwKR01QID0g
+SLURM_CONF=/var/lib/slurmconf/slurm.conf
+LOADEDMODULES=StdEnv:GCCcore/12.2.0:zlib/1.2.12-GCCcore-12.2.0:binutils/2.39-GCCcore-12.2.0:bzip2/1.0.8-GCCcore-12.2.0:ncurses/6.3-GCCcore-12.2.0:libreadline/8.2-GCCcore-12.2.0:Tcl/8.6.12-GCCcore-12.2.0:SQLite/3.39.4-GCCcore-12.2.0:XZ/5.2.7-GCCcore-12.2.0:GMP/6.2.1-GCCcore-12.2.0:libffi/3.4.4-GCCcore-12.2.0:OpenSSL/1.1:Python/3.10.8-GCCcore-12.2.0
+__LMOD_REF_COUNT_MANPATH=/vast/palmer/apps/avx2/software/Python/3.10.8-GCCcore-12.2.0/share/man:1;/vast/palmer/apps/avx2/software/libffi/3.4.4-GCCcore-12.2.0/share/man:1;/vast/palmer/apps/avx2/software/XZ/5.2.7-GCCcore-12.2.0/share/man:1;/vast/palmer/apps/avx2/software/SQLite/3.39.4-GCCcore-12.2.0/share/man:1;/vast/palmer/apps/avx2/software/Tcl/8.6.12-GCCcore-12.2.0/share/man:1;/vast/palmer/apps/avx2/software/Tcl/8.6.12-GCCcore-12.2.0/man:1;/vast/palmer/apps/avx2/software/libreadline/8.2-GCCcore-12.2.0/share/man:1;/vast/palmer/apps/avx2/software/ncurses/6.3-GCCcore-12.2.0/share/man:1;/vast/palmer/apps/avx2/software/bzip2/1.0.8-GCCcore-12.2.0/man:1;/vast/palmer/apps/avx2/software/binutils/2.39-GCCcore-12.2.0/share/man:1;/vast/palmer/apps/avx2/software/zlib/1.2.12-GCCcore-12.2.0/share/man:1;/vast/palmer/apps/avx2/software/GCCcore/12.2.0/share/man:1;/usr/share/lmod/lmod/share/man:1;:1
+_ModuleTable006_=LjIuMCIsCmxvYWRPcmRlciA9IDgsCnByb3BUID0ge30sCnJlZl9jb3VudCA9IDEsCnN0YWNrRGVwdGggPSAyLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAiVGNsLzguNi4xMi1HQ0Njb3JlLTEyLjIuMCIsCndWID0gIjAwMDAwMDAwOC4wMDAwMDAwMDYuMDAwMDAwMDEyLipnY2Njb3JlLip6ZmluYWwtLjAwMDAwMDAxMi4wMDAwMDAwMDIuKnpmaW5hbCIsCn0sClhaID0gewpmbiA9ICIvdmFzdC9wYWxtZXIvYXBwcy9hdngyL21vZHVsZXMvdG9vbHMvWFovNS4yLjctR0NDY29yZS0xMi4yLjAubHVhIiwKZnVsbE5hbWUgPSAiWFovNS4yLjctR0NDY29yZS0xMi4yLjAiLApsb2FkT3JkZXIgPSAxMCwKcHJvcFQgPSB7fSwKcmVmX2NvdW50ID0gMSwKc3RhY2tEZXB0aCA9
+VIRTUAL_ENV_PROMPT=(cloudvol) 
+EBVERSIONZLIB=1.2.12
+EBVERSIONPYTHON=3.10.8
+_ModuleTable003_=MS5sdWEiLApmdWxsTmFtZSA9ICJPcGVuU1NMLzEuMSIsCmxvYWRPcmRlciA9IDEzLApwcm9wVCA9IHt9LApyZWZfY291bnQgPSAxLApzdGFja0RlcHRoID0gMSwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gIk9wZW5TU0wvMS4xIiwKd1YgPSAiMDAwMDAwMDAxLjAwMDAwMDAwMS4qemZpbmFsIiwKfSwKUHl0aG9uID0gewpmbiA9ICIvdmFzdC9wYWxtZXIvYXBwcy9hdngyL21vZHVsZXMvbGFuZy9QeXRob24vMy4xMC44LUdDQ2NvcmUtMTIuMi4wLmx1YSIsCmZ1bGxOYW1lID0gIlB5dGhvbi8zLjEwLjgtR0NDY29yZS0xMi4yLjAiLApsb2FkT3JkZXIgPSAxNCwKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDAsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJQ
+SLURM_NODE_ALIASES=(null)
+EBROOTTCL=/vast/palmer/apps/avx2/software/Tcl/8.6.12-GCCcore-12.2.0
+SLURM_JOB_QOS=normal
+LMOD_ROOT=/usr/share/lmod
+SLURM_TOPOLOGY_ADDR_PATTERN=node
+SSH_TTY=/dev/pts/131
+_ModuleTable013_=ICIvdmFzdC9wYWxtZXIvYXBwcy9hdngyL21vZHVsZXMvY2hlbSIKLCAiL3Zhc3QvcGFsbWVyL2FwcHMvYXZ4Mi9tb2R1bGVzL2NvbXBpbGVyIgosICIvdmFzdC9wYWxtZXIvYXBwcy9hdngyL21vZHVsZXMvZGF0YSIKLCAiL3Zhc3QvcGFsbWVyL2FwcHMvYXZ4Mi9tb2R1bGVzL2RlYnVnZ2VyIgosICIvdmFzdC9wYWxtZXIvYXBwcy9hdngyL21vZHVsZXMvZGV2ZWwiLCAiL3Zhc3QvcGFsbWVyL2FwcHMvYXZ4Mi9tb2R1bGVzL2dlbyIKLCAiL3Zhc3QvcGFsbWVyL2FwcHMvYXZ4Mi9tb2R1bGVzL2lkZSIsICIvdmFzdC9wYWxtZXIvYXBwcy9hdngyL21vZHVsZXMvbGFuZyIKLCAiL3Zhc3QvcGFsbWVyL2FwcHMvYXZ4Mi9tb2R1bGVzL2xpYiIsICIvdmFzdC9wYWxtZXIvYXBwcy9h
+MAIL=/var/spool/mail/atk42
+CONDA_ENVS_PATH=/home/atk42/.conda/envs:/gpfs/gibbs/project/kuan/atk42/conda_envs
+SLURM_CPUS_ON_NODE=1
+SLURM_JOB_NUM_NODES=1
+__Init_Default_Modules=1
+_ModuleTable009_=Lip6ZmluYWwtLjAwMDAwMDAxMi4wMDAwMDAwMDIuKnpmaW5hbCIsCn0sCmxpYmZmaSA9IHsKZm4gPSAiL3Zhc3QvcGFsbWVyL2FwcHMvYXZ4Mi9tb2R1bGVzL2xpYi9saWJmZmkvMy40LjQtR0NDY29yZS0xMi4yLjAubHVhIiwKZnVsbE5hbWUgPSAibGliZmZpLzMuNC40LUdDQ2NvcmUtMTIuMi4wIiwKbG9hZE9yZGVyID0gMTIsCnByb3BUID0ge30sCnJlZl9jb3VudCA9IDEsCnN0YWNrRGVwdGggPSAxLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAibGliZmZpLzMuNC40LUdDQ2NvcmUtMTIuMi4wIiwKd1YgPSAiMDAwMDAwMDAzLjAwMDAwMDAwNC4wMDAwMDAwMDQuKmdjY2NvcmUuKnpmaW5hbC0uMDAwMDAwMDEyLjAwMDAwMDAwMi4qemZpbmFsIiwKfSwKbGlicmVh
+EBDEVELOPENSSL=/vast/palmer/apps/avx2/software/OpenSSL/1.1/easybuild/OpenSSL-1.1-easybuild-devel
+SHELL=/bin/bash
+TERM=xterm-256color
+EBDEVELLIBFFI=/vast/palmer/apps/avx2/software/libffi/3.4.4-GCCcore-12.2.0/easybuild/libffi-3.4.4-GCCcore-12.2.0-easybuild-devel
+LMOD_ADMIN_FILE=/vast/palmer/apps/avx2/admin.list
+OMPI_MCA_btl_tcp_if_include=cluster
+EBDEVELGCCCORE=/vast/palmer/apps/avx2/software/GCCcore/12.2.0/easybuild/GCCcore-12.2.0-easybuild-devel
+_ModuleTable_Sz_=15
+SLURM_JOB_UID=23382
+__LMOD_REF_COUNT_CPATH=/vast/palmer/apps/avx2/software/Python/3.10.8-GCCcore-12.2.0/include:1;/vast/palmer/apps/avx2/software/OpenSSL/1.1/include:1;/vast/palmer/apps/avx2/software/libffi/3.4.4-GCCcore-12.2.0/include:1;/vast/palmer/apps/avx2/software/GMP/6.2.1-GCCcore-12.2.0/include:1;/vast/palmer/apps/avx2/software/XZ/5.2.7-GCCcore-12.2.0/include:1;/vast/palmer/apps/avx2/software/SQLite/3.39.4-GCCcore-12.2.0/include:1;/vast/palmer/apps/avx2/software/Tcl/8.6.12-GCCcore-12.2.0/include:1;/vast/palmer/apps/avx2/software/libreadline/8.2-GCCcore-12.2.0/include:1;/vast/palmer/apps/avx2/software/ncurses/6.3-GCCcore-12.2.0/include:1;/vast/palmer/apps/avx2/software/bzip2/1.0.8-GCCcore-12.2.0/include:1;/vast/palmer/apps/avx2/software/binutils/2.39-GCCcore-12.2.0/include:1;/vast/palmer/apps/avx2/software/zlib/1.2.12-GCCcore-12.2.0/include:1
+SLURM_JOB_PARTITION=day
+EBDEVELNCURSES=/vast/palmer/apps/avx2/software/ncurses/6.3-GCCcore-12.2.0/easybuild/ncurses-6.3-GCCcore-12.2.0-easybuild-devel
+EBVERSIONBZIP2=1.0.8
+SLURM_HINT=nomultithread
+SLURM_PTY_WIN_ROW=39
+EBDEVELBINUTILS=/vast/palmer/apps/avx2/software/binutils/2.39-GCCcore-12.2.0/easybuild/binutils-2.39-GCCcore-12.2.0-easybuild-devel
+EBROOTGMP=/vast/palmer/apps/avx2/software/GMP/6.2.1-GCCcore-12.2.0
+SACCT_FORMAT=jobname,jobid,JobIDRaw,user,account,partition,Start,End,Elapsed,MaxVM,AveVM,ReqMem,NNodes,NTasks,NCPUS,ReqTres,ExitCode,State,NodeList
+UCX_NET_DEVICES=cluster
+SLURM_JOB_USER=atk42
+SLURM_PTY_WIN_COL=140
+SHLVL=4
+__LMOD_REF_COUNT_CONDA_ENVS_PATH=/home/atk42/.conda/envs:1;/gpfs/gibbs/project/kuan/atk42/conda_envs:1
+SLURM_SUBMIT_HOST=r209u08n03.mccleary.ycrc.yale.edu
+PYTHONPATH=/vast/palmer/apps/avx2/software/Python/3.10.8-GCCcore-12.2.0/easybuild/python
+SLURM_JOB_ACCOUNT=kuan
+MANPATH=/vast/palmer/apps/avx2/software/Python/3.10.8-GCCcore-12.2.0/share/man:/vast/palmer/apps/avx2/software/libffi/3.4.4-GCCcore-12.2.0/share/man:/vast/palmer/apps/avx2/software/XZ/5.2.7-GCCcore-12.2.0/share/man:/vast/palmer/apps/avx2/software/SQLite/3.39.4-GCCcore-12.2.0/share/man:/vast/palmer/apps/avx2/software/Tcl/8.6.12-GCCcore-12.2.0/share/man:/vast/palmer/apps/avx2/software/Tcl/8.6.12-GCCcore-12.2.0/man:/vast/palmer/apps/avx2/software/libreadline/8.2-GCCcore-12.2.0/share/man:/vast/palmer/apps/avx2/software/ncurses/6.3-GCCcore-12.2.0/share/man:/vast/palmer/apps/avx2/software/bzip2/1.0.8-GCCcore-12.2.0/man:/vast/palmer/apps/avx2/software/binutils/2.39-GCCcore-12.2.0/share/man:/vast/palmer/apps/avx2/software/zlib/1.2.12-GCCcore-12.2.0/share/man:/vast/palmer/apps/avx2/software/GCCcore/12.2.0/share/man:/usr/share/lmod/lmod/share/man::
+SLURM_STEP_LAUNCHER_PORT=43335
+MODULEPATH=/vast/palmer/apps/avx2/modules/ai:/vast/palmer/apps/avx2/modules/base:/vast/palmer/apps/avx2/modules/bio:/vast/palmer/apps/avx2/modules/cae:/vast/palmer/apps/avx2/modules/chem:/vast/palmer/apps/avx2/modules/compiler:/vast/palmer/apps/avx2/modules/data:/vast/palmer/apps/avx2/modules/debugger:/vast/palmer/apps/avx2/modules/devel:/vast/palmer/apps/avx2/modules/geo:/vast/palmer/apps/avx2/modules/ide:/vast/palmer/apps/avx2/modules/lang:/vast/palmer/apps/avx2/modules/lib:/vast/palmer/apps/avx2/modules/math:/vast/palmer/apps/avx2/modules/mpi:/vast/palmer/apps/avx2/modules/numlib:/vast/palmer/apps/avx2/modules/perf:/vast/palmer/apps/avx2/modules/phys:/vast/palmer/apps/avx2/modules/system:/vast/palmer/apps/avx2/modules/toolchain:/vast/palmer/apps/avx2/modules/tools:/vast/palmer/apps/avx2/modules/vis:/vast/palmer/apps/avx2/modules/restricted:/etc/modulefiles:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
+EBDEVELLIBREADLINE=/vast/palmer/apps/avx2/software/libreadline/8.2-GCCcore-12.2.0/easybuild/libreadline-8.2-GCCcore-12.2.0-easybuild-devel
+SLURM_PTY_PORT=45451
+SLURM_PMI2_SRUN_PORT=35071
+SLURM_GTIDS=0
+LOGNAME=atk42
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/23382/bus
+CLUSTER=mccleary
+XDG_RUNTIME_DIR=/run/user/23382
+EBVERSIONBINUTILS=2.39
+MODULEPATH_ROOT=/usr/share/modulefiles
+LMOD_PACKAGE_PATH=/vast/palmer/apps/avx2
+EBDEVELZLIB=/vast/palmer/apps/avx2/software/zlib/1.2.12-GCCcore-12.2.0/easybuild/zlib-1.2.12-GCCcore-12.2.0-easybuild-devel
+PALMER_SCRATCH=/vast/palmer/scratch/kuan/atk42
+PATH=/vast/palmer/home.mccleary/atk42/envs/cloudvol/bin:/vast/palmer/apps/avx2/software/Python/3.10.8-GCCcore-12.2.0/bin:/vast/palmer/apps/avx2/software/OpenSSL/1.1/bin:/vast/palmer/apps/avx2/software/XZ/5.2.7-GCCcore-12.2.0/bin:/vast/palmer/apps/avx2/software/SQLite/3.39.4-GCCcore-12.2.0/bin:/vast/palmer/apps/avx2/software/Tcl/8.6.12-GCCcore-12.2.0/bin:/vast/palmer/apps/avx2/software/ncurses/6.3-GCCcore-12.2.0/bin:/vast/palmer/apps/avx2/software/bzip2/1.0.8-GCCcore-12.2.0/bin:/vast/palmer/apps/avx2/software/binutils/2.39-GCCcore-12.2.0/bin:/vast/palmer/apps/avx2/software/GCCcore/12.2.0/bin:/vast/palmer/apps/bin:/vast/palmer/home.mccleary/atk42/envs/cloudvol/bin:/home/atk42/.local/bin:/home/atk42/bin:/opt/slurm/current/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/dell/srvadmin/bin
+_ModuleTable014_=dngyL21vZHVsZXMvbWF0aCIKLCAiL3Zhc3QvcGFsbWVyL2FwcHMvYXZ4Mi9tb2R1bGVzL21waSIsICIvdmFzdC9wYWxtZXIvYXBwcy9hdngyL21vZHVsZXMvbnVtbGliIgosICIvdmFzdC9wYWxtZXIvYXBwcy9hdngyL21vZHVsZXMvcGVyZiIsICIvdmFzdC9wYWxtZXIvYXBwcy9hdngyL21vZHVsZXMvcGh5cyIKLCAiL3Zhc3QvcGFsbWVyL2FwcHMvYXZ4Mi9tb2R1bGVzL3N5c3RlbSIKLCAiL3Zhc3QvcGFsbWVyL2FwcHMvYXZ4Mi9tb2R1bGVzL3Rvb2xjaGFpbiIKLCAiL3Zhc3QvcGFsbWVyL2FwcHMvYXZ4Mi9tb2R1bGVzL3Rvb2xzIiwgIi92YXN0L3BhbG1lci9hcHBzL2F2eDIvbW9kdWxlcy92aXMiCiwgIi92YXN0L3BhbG1lci9hcHBzL2F2eDIvbW9kdWxlcy9yZXN0cmlj
+SLURM_JOB_ID=42180367
+EBVERSIONLIBREADLINE=8.2
+_LMFILES_=/etc/modulefiles/StdEnv.lua:/vast/palmer/apps/avx2/modules/compiler/GCCcore/12.2.0.lua:/vast/palmer/apps/avx2/modules/lib/zlib/1.2.12-GCCcore-12.2.0.lua:/vast/palmer/apps/avx2/modules/tools/binutils/2.39-GCCcore-12.2.0.lua:/vast/palmer/apps/avx2/modules/tools/bzip2/1.0.8-GCCcore-12.2.0.lua:/vast/palmer/apps/avx2/modules/devel/ncurses/6.3-GCCcore-12.2.0.lua:/vast/palmer/apps/avx2/modules/lib/libreadline/8.2-GCCcore-12.2.0.lua:/vast/palmer/apps/avx2/modules/lang/Tcl/8.6.12-GCCcore-12.2.0.lua:/vast/palmer/apps/avx2/modules/devel/SQLite/3.39.4-GCCcore-12.2.0.lua:/vast/palmer/apps/avx2/modules/tools/XZ/5.2.7-GCCcore-12.2.0.lua:/vast/palmer/apps/avx2/modules/math/GMP/6.2.1-GCCcore-12.2.0.lua:/vast/palmer/apps/avx2/modules/lib/libffi/3.4.4-GCCcore-12.2.0.lua:/vast/palmer/apps/avx2/modules/system/OpenSSL/1.1.lua:/vast/palmer/apps/avx2/modules/lang/Python/3.10.8-GCCcore-12.2.0.lua
+PS1=(cloudvol) 
+SLURM_STEP_NUM_TASKS=1
+MODULESHOME=/usr/share/lmod/lmod
+PKG_CONFIG_PATH=/vast/palmer/apps/avx2/software/Python/3.10.8-GCCcore-12.2.0/lib/pkgconfig:/vast/palmer/apps/avx2/software/OpenSSL/1.1/lib/pkgconfig:/vast/palmer/apps/avx2/software/libffi/3.4.4-GCCcore-12.2.0/lib/pkgconfig:/vast/palmer/apps/avx2/software/GMP/6.2.1-GCCcore-12.2.0/lib/pkgconfig:/vast/palmer/apps/avx2/software/XZ/5.2.7-GCCcore-12.2.0/lib/pkgconfig:/vast/palmer/apps/avx2/software/SQLite/3.39.4-GCCcore-12.2.0/lib/pkgconfig:/vast/palmer/apps/avx2/software/Tcl/8.6.12-GCCcore-12.2.0/lib/pkgconfig:/vast/palmer/apps/avx2/software/libreadline/8.2-GCCcore-12.2.0/lib/pkgconfig:/vast/palmer/apps/avx2/software/bzip2/1.0.8-GCCcore-12.2.0/lib/pkgconfig:/vast/palmer/apps/avx2/software/zlib/1.2.12-GCCcore-12.2.0/lib/pkgconfig
+LMOD_SETTARG_FULL_SUPPORT=no
+LMOD_CACHED_LOADS=yes
+OMPI_MCA_oob_tcp_if_include=cluster
+_ModuleTable011_=ZWwvbmN1cnNlcy82LjMtR0NDY29yZS0xMi4yLjAubHVhIiwKZnVsbE5hbWUgPSAibmN1cnNlcy82LjMtR0NDY29yZS0xMi4yLjAiLApsb2FkT3JkZXIgPSA2LApwcm9wVCA9IHt9LApyZWZfY291bnQgPSAyLApzdGFja0RlcHRoID0gMiwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gIm5jdXJzZXMvNi4zLUdDQ2NvcmUtMTIuMi4wIiwKd1YgPSAiMDAwMDAwMDA2LjAwMDAwMDAwMy4qZ2NjY29yZS4qemZpbmFsLS4wMDAwMDAwMTIuMDAwMDAwMDAyLip6ZmluYWwiLAp9LAp6bGliID0gewpmbiA9ICIvdmFzdC9wYWxtZXIvYXBwcy9hdngyL21vZHVsZXMvbGliL3psaWIvMS4yLjEyLUdDQ2NvcmUtMTIuMi4wLmx1YSIsCmZ1bGxOYW1lID0gInpsaWIvMS4yLjEyLUdDQ2Nv
+HISTSIZE=1000
+LMOD_PKG=/usr/share/lmod/lmod
+CMAKE_LIBRARY_PATH=/vast/palmer/apps/avx2/software/libffi/3.4.4-GCCcore-12.2.0/lib64:/vast/palmer/apps/avx2/software/GCCcore/12.2.0/lib64
+SLURM_STEP_NUM_NODES=1
+LMOD_CMD=/usr/share/lmod/lmod/libexec/lmod
+_ModuleTable005_=LjAwMDAwMDAzOS4wMDAwMDAwMDQuKmdjY2NvcmUuKnpmaW5hbC0uMDAwMDAwMDEyLjAwMDAwMDAwMi4qemZpbmFsIiwKfSwKU3RkRW52ID0gewpmbiA9ICIvZXRjL21vZHVsZWZpbGVzL1N0ZEVudi5sdWEiLApmdWxsTmFtZSA9ICJTdGRFbnYiLApsb2FkT3JkZXIgPSAxLApwcm9wVCA9IHsKbG1vZCA9IHsKc3RpY2t5ID0gMSwKfSwKfSwKc3RhY2tEZXB0aCA9IDAsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJTdGRFbnYiLAp3ViA9ICJNLip6ZmluYWwiLAp9LApUY2wgPSB7CmZuID0gIi92YXN0L3BhbG1lci9hcHBzL2F2eDIvbW9kdWxlcy9sYW5nL1RjbC84LjYuMTItR0NDY29yZS0xMi4yLjAubHVhIiwKZnVsbE5hbWUgPSAiVGNsLzguNi4xMi1HQ0Njb3JlLTEy
+SLURM_LOCALID=0
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LMOD_DIR=/usr/share/lmod/lmod/libexec
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+BASH_FUNC_module%%=() {  if [ -z "${LMOD_SH_DBG_ON+x}" ]; then
+ case "$-" in 
+ *v*x*)
+ __lmod_sh_dbg='vx'
+ ;;
+ *v*)
+ __lmod_sh_dbg='v'
+ ;;
+ *x*)
+ __lmod_sh_dbg='x'
+ ;;
+ esac;
+ fi;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ set +$__lmod_sh_dbg;
+ echo "Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output" 1>&2;
+ fi;
+ eval "$($LMOD_CMD shell "$@")" && eval "$(${LMOD_SETTARG_CMD:-:} -s sh)";
+ __lmod_my_status=$?;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ echo "Shell debugging restarted" 1>&2;
+ set -$__lmod_sh_dbg;
+ fi;
+ unset __lmod_sh_dbg;
+ return $__lmod_my_status
+}
+BASH_FUNC_ml%%=() {  eval "$($LMOD_DIR/ml_cmd "$@")"
+}
+_=/usr/bin/env
