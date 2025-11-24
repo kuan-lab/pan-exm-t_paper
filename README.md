@@ -15,8 +15,11 @@ Here we provide links to access image data associated with the paper, and data p
 ## Spinning Disk Confocal Montage of Hippocampal Dendrites with Sparse GFP Labeling (Fig. 5k)
 ### Including annotations use for tracing accuracy measurements
 [Dataset 1 (image data and annotations)](https://webknossos.org/links/eWdlQ0Q6HHQt55vx)
+
 [Dataset 2 (image data and annotations)](https://webknossos.org/links/Td24-0DYCaa3FcPq)
+
 [Dataset 3 (image data and annotations)](https://webknossos.org/links/R-oaaljzlXAqn6i-)
+
 [Dataset 4 (image data and annotations)](https://webknossos.org/links/_tleFmAzzOAlbo9t)
 
 
